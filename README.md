@@ -50,6 +50,26 @@ airline-data-analysis/
 └── .gitignore
 ```
 
+# Airline Data Analysis Project
+```
+# Directory Structure:
+airline_data_analysis/
+├── data/
+│   ├── raw/
+│   └── processed/
+├── notebooks/
+│   ├── 01_data_cleaning.ipynb
+│   ├── 02_exploratory_analysis.ipynb
+│   └── 03_visualization.ipynb
+├── src/
+│   ├── data_preprocessing.py
+│   ├── analysis.py
+│   └── visualization.py
+├── reports/
+├── requirements.txt
+└── README.md
+```
+
 # Suggested Analysis
 
 - Data Cleaning & Preprocessing: Handle missing values, convert date/time formats, remove duplicates.
@@ -75,26 +95,6 @@ airline-data-analysis/
 1. Clone the repo
 2. Install dependencies: `pip install -r requirements.txt`
 3. Run Jupyter notebooks in `notebooks/`
-
-# Airline Data Analysis Project
-```
-# Directory Structure:
-airline_data_analysis/
-├── data/
-│   ├── raw/
-│   └── processed/
-├── notebooks/
-│   ├── 01_data_cleaning.ipynb
-│   ├── 02_exploratory_analysis.ipynb
-│   └── 03_visualization.ipynb
-├── src/
-│   ├── data_preprocessing.py
-│   ├── analysis.py
-│   └── visualization.py
-├── reports/
-├── requirements.txt
-└── README.md
-```
 
 
 #
